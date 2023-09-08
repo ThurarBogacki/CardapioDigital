@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'righteous';
+    src: url('../fontes/Righteous') format('truetype');
+  }
+
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.container{
+    padding-bottom: 50px;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    background-color: #f15921;
+}
+
+.lista{
+    margin-left: 50%;
+    max-width: 100vw;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+ul{
+    color: white;
+    list-style: none;
+    font-family: righteous, sans-serif;
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    padding-top: 40px;
+}
+.produto{
+    font-size: 22px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 30px;
+}
+.veg{
+    padding: 10px;
+}
+@media screen and (max-width: 800px){
+    .title{
+        font-size: 25px;
+    }
+    .produto{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    ul{
+        margin-left: -60px;
+    }
+}
